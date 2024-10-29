@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE SLIDER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- OVRALL CONTAINER  -->
+    <div class="container">
+        <!-- SHOW CURRENT IMG CONTAINER  -->
+        <div class="imgShow_container">
+            <img id="currentImg" src="assets/img1.jpg" class="currentImg">
+            <!-- IMG SLIDER WRAPPER  -->
+            <div class="imgSliderWrapper">
+                <!-- SLIDER CONTAINER  -->
+                <div class="sliderControls">
+                    <div class="leftIcon">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="rightIcon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <!-- IMG SLIDER CONTAINER  -->
+                <div class="imgSlider_container">
+                    <img src="assets/img1.jpg" class="active">
+                    <img src="assets/img2.jpg">
+                    <img src="assets/img3.jpg">
+                    <img src="assets/img4.jpg">
+                    <img src="assets/img5.jpg">
+                    <img src="assets/img6.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!-- SCRIPT FOR SLIDER  -->
+        <script src="script.js"></script>
+        </body>
+</html>
