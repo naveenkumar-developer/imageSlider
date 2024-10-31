@@ -13,7 +13,7 @@ A visually appealing image slider built using HTML , CSS , JAVASCRIPT. It includ
 ---
 
 ## Demo 📸
-
+Open the project click [here](https://naveenkumar-developer.github.io/imageSlider/)
 ![slider img](assets/imgSlider.png)
 
 ---
